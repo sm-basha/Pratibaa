@@ -1,0 +1,145 @@
+#title,#infra{
+    background-color: #faf4ff;
+}
+
+/* Title Section*/
+
+.nav-item{
+    padding:0 18px;
+    font-weight: 500;
+}
+
+/* Main Box Section */
+#main-box{position: relative;}
+.main-img{ width: 100%;}
+.text-area{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    opacity: 0.8;
+    position: absolute;
+    top: 61%;
+    left: 0;
+    right: 0;
+
+}
+
+
+/* WHY-RSM section */
+
+#why-rsm{padding: 5%;}
+.why-img{width: 600px;}
+.why-h1{
+    padding: 20%;
+    font-family: 'Merienda', cursive;
+    font-weight: 1000;
+    font-size: 4rem;
+}
+
+
+
+/* Infrastructure section */
+
+#infra{
+    padding: 1%;
+    text-align: center;
+}
+.infra-img{ 
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid;
+    margin: 2%;
+}
+
+
+/* Admission section */
+
+#admission,#footer{padding: 5%;}
+.form-add{
+    border-radius: 20px;
+    float: right;
+}
+.form-career{
+    border-radius: 30px;
+    margin: 30px auto;
+}
+
+#career{ background-clip: url(file_13.mp4);}
+
+
+/* Footer section */
+#footer{
+    background-color: #827397;
+    color: #fff;
+}
+.col-lg-1{padding-right: 0;}
+
+.footRow{
+    margin:25px 0;
+}
+
+li{list-style: none; margin:10px 0;}
+a{color: #fff;}
+i,a:hover{
+    text-decoration: none;
+    font-weight: 500;
+    color: #cae3dd;}
+.soc{margin: 0 10px;}
+.attribution{text-align: center; margin: 20px 0 10px;}
+
+.session{
+    position: relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    }
+    .v-container{
+    position:absolute;
+    z-index: -2;
+    left: 0;
+    right: 0;
+    }
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+    .nav-item{text-align: center;}
+    .why-img{width: 100%;}
+    .why-h1{margin: 0 auto; text-align: center;}
+    #title {text-align: center; }
+    #footer{text-align: center;}
+    .foot-icon{float: right;}
+    .foot-no{float: left;}
+    .soc-icon{margin-top: 30px;}
+}
+
+@media (max-width:1024px){
+    .text-area{
+        max-width: 90%;
+        padding: 15px 3px 2px;
+        font-size: 1rem;
+        top: 50%;
+    }
+    .text-area h1{font-size: 1.5rem;}
+    .text-area h3{font-size: 1.2rem;}
+}
+@media (max-width:768px){
+    .text-area{top:30%; font-size: 0.5rem;}
+    #why-rsm h1{font-size: 3rem;}
+    #infra h2{font-size: 1.5rem ;}
+    #infra h4{font-size: 0.8rem ;}
+}
+@media (max-width:768px){.text-area{visibility: hidden;}}
+
+
+
+
+
+
+
