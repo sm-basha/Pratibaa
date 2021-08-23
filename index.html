@@ -19,6 +19,9 @@
       <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
 
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/compressed/picker.date.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.6/compressed/picker.js"></script> -->
+
   </head>
 
 <body>
@@ -31,7 +34,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">HOME </a>
+              <a class="nav-link" href="index.html">Home </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="addmissions.html">Admissions</a>
@@ -61,7 +64,7 @@
                     <h1>Global Leaders Are Made At <b style="color: orange;">Pratibaa</b></h1>
                     <p>On a mission to provide a positive & energetic learning environment to students helping them to relish knowledge &
                         develop a wise approach towards future every day. <br><br>
-                        <button type="button" class="btn btn-primary btn-lg"><a href="#add">Admission Enquiry</a></button>
+                        <button type="button" class="btn btn-primary btn-lg"><a href="#admission">Admission Enquiry</a></button>
                     </p>
                 </div>
             </div>
@@ -103,15 +106,84 @@
     </section>
 
     <section id="admission">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-sm-12">
-                    <img class="main-img" src="images/add.png" alt="">
-                </div>
-                <div class="col-lg-6 col-sm-12">
-                    <iframe class="form-add" width="540px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__s_L8BRUNzBXSEY4T0dVMU5WODNGQUNPQTNXSERQUS4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-                </div>
-            </div>
+        <div class="container">
+<!-- FORM -->
+<div id="section" class="block">
+  <section class="contact-wrap">
+      <h1 class="text-center"> Admission Enquiry</h1>
+
+      <form id="submit-form" action="" class="contact-form">
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="input-block">
+                      <label for="">First Name *</label>
+                      <input name="name" type="text" class="form-control" id="name" required="">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="input-block">
+                      <label for="">Last Name</label>
+                      <input name="lastName" type="text" class="form-control">
+                  </div>
+              </div>
+          </div>
+
+          <div id="datepicker">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" placeholder="DD-MM-YYYY" type="date" min="2001-12-17" max="2020-01-01" \ value="2021-08-24">
+            <input type="submit" value="Submit">
+          </div>
+
+ 
+
+
+          <div class="form-check-inline">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Male
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Female
+            </label>
+          </div>
+
+          <div class="">
+              <div class="input-block">
+                  <label for="">Phone *</label>
+                  <input name="phone" type="tel" class="form-control" id="phone" required="">
+              </div>
+          </div>
+
+          <div class="">
+              <div class="input-block">
+                  <label for="">Email</label>
+                  <input name="email" type="email" class="form-control" id="email">
+              </div>
+          </div>
+          <div class="">
+              <div class="input-block">
+                  <label for="">Message Subject</label>
+                  <input name="message" type="text" class="form-control" id="msg">
+              </div>
+          </div>
+          <div class="">
+              <div class="input-block textarea">
+                  <label for="">Address *</label>
+                  <textarea rows="4" type="text" class="form-control" required=""></textarea>
+              </div>
+          </div>
+          <div class="">
+              <button class="square-button">Send</button>
+          </div>
+      </form>
+
+
+  </section>
+</div>
+
         </div>
 
     </section>
@@ -178,6 +250,7 @@
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="index.js"></script>
 </body>
 </html>
 
