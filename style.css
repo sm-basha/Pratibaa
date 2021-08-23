@@ -4,9 +4,16 @@
 
 /* Title Section*/
 
+.navbar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding: 0 1rem;
+}
 .nav-item{
     padding:0 18px;
     font-weight: 500;
+    font-size: 1.2rem;
 }
 
 /* Main Box Section */
@@ -28,9 +35,9 @@
 }
 
 
-/* WHY-RSM section */
+/* WHY-Pratibaa section */
 
-#why-rsm{padding: 5%;}
+#why-Pratibaa{padding: 5%;}
 .why-img{width: 600px;}
 .why-h1{
     padding: 20%;
@@ -44,14 +51,14 @@
 /* Infrastructure section */
 
 #infra{
-    padding: 1%;
+    padding: 3%;
     text-align: center;
 }
 .infra-img{ 
     width: 100%;
     border-radius: 30px;
     border: 1px solid;
-    margin: 2%;
+    margin: 1rem 0.3rem;
 }
 
 
@@ -131,7 +138,7 @@ i,a:hover{
 }
 @media (max-width:768px){
     .text-area{top:30%; font-size: 0.5rem;}
-    #why-rsm h1{font-size: 3rem;}
+    #why-Pratibaa h1{font-size: 3rem;}
     #infra h2{font-size: 1.5rem ;}
     #infra h4{font-size: 0.8rem ;}
 }
