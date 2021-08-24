@@ -6,7 +6,9 @@ html {
 }
 
 /* Title Section*/
-
+.navbar-toggler-icon {
+  background-image: url(images/navbar-toggle.png);
+}
 .navbar {
     position: fixed;
     z-index: 10;
@@ -44,7 +46,7 @@ nav.black {
     left: 0;
     right: 0;
 }
-.text-area a{color: #fff;}
+.navbar-nav a,.text-area a{color: #fff;}
 
 
 /* WHY-Pratibaa section */
@@ -205,6 +207,9 @@ nav.black {
     transform: translateY(-4px);
   }
   
+  .no-border-bottom{
+    border-bottom: none !important;
+  }
 
 
 
@@ -269,12 +274,22 @@ i,a:hover{
     }
     .text-area h1{font-size: 1.5rem;}
     .text-area h3{font-size: 1.2rem;}
+    .contact-form{width: 80%;padding: 0px;}
+
 }
 @media (max-width:768px){
+  .logoImg{height: 3rem;}
     .text-area{top:30%; font-size: 0.5rem;}
     #why-Pratibaa h1{font-size: 3rem;}
-    #infra h2{font-size: 1.5rem ;}
-    #infra h4{font-size: 0.8rem ;}
+    #infra h2, #why-Pratibaa h1, #admission h1{font-size: 1.65rem ;}
+    #infra h4,.contact-form .input-block label,.input-block,.form-control, .nav-item{font-size: 0.8rem ;}
+    .nav-link{padding: 0.09rem 1rem;}
+    .why-h1{padding: 10%;}
+    #why-Pratibaa, #infra{padding: 1rem 0;}
+    .contact-form{width: 100%;padding: 0px;}
+    
+
+
 }
 @media (max-width:768px){.text-area{visibility: hidden;}}
 
