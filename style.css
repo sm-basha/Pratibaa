@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 #title,#infra{
     background-color: #faf4ff;
 }
@@ -16,6 +19,14 @@
     font-weight: 500;
     font-size: 1.2rem;
 }
+nav.black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a.white {
+  color: #fff;
+  font-weight: 700;
+}
 
 /* Main Box Section */
 #main-box{position: relative;}
@@ -32,13 +43,13 @@
     top: 61%;
     left: 0;
     right: 0;
-
 }
+.text-area a{color: #fff;}
 
 
 /* WHY-Pratibaa section */
 
-#why-Pratibaa{padding: 5%;}
+#why-Pratibaa{padding: 6rem 0;}
 .why-img{width: 600px;}
 .why-h1{
     padding: 20%;
@@ -52,7 +63,7 @@
 /* Infrastructure section */
 
 #infra{
-    padding: 3%;
+    padding: 5rem 0;
     text-align: center;
 }
 .infra-img{ 
@@ -65,13 +76,14 @@
 
 /* Admission section */
 #admission{
-    background: url(images/child-playing.jpg);
+    background-image: linear-gradient(to bottom, rgba(173, 15, 15, 0.6) 0%,rgba(0,0,0,0.6) 100%), url(images/child-playing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
+    padding: 5rem 0;    
 }
-form {
+.form {
     max-width: 50%;
     margin: 2rem auto;
   }
@@ -91,10 +103,17 @@ form {
     margin: 0 auto;
     padding: 40px;
   }
+
+  .form-check-inline{
+    line-height: 2.3rem;
+    background-color: transparent;
+    border-radius: 1rem;
+    color: rgb(158, 158, 204);
+  }
   
   .contact-form .input-block {
     background-color: transparent;
-    border: none;
+    border: #000;
     width: 100%;
     height: 60px;
     border-bottom: 2px solid #db4e5a;
@@ -117,7 +136,7 @@ form {
   }
   
   .contact-form .input-block label {
-    position: absolute;
+    position: inherit;
     left: 10px;
     top: 25px;
     display: block;
@@ -192,7 +211,7 @@ form {
 
 
 /* Footer section */
-#footer{
+/* #footer{
     background-color: #827397;
     color: #fff;
 }
@@ -209,7 +228,6 @@ i,a:hover{
     font-weight: 500;
     color: #cae3dd;}
 .soc{margin: 0 10px;}
-.attribution{text-align: center; margin: 20px 0 10px;}
 
 .session{
     position: relative;
@@ -225,7 +243,9 @@ i,a:hover{
     z-index: -2;
     left: 0;
     right: 0;
-    }
+    } */
+    .attribution{text-align: center; margin: 20px 0 10px;}
+
 
 /* Media Query */
 
