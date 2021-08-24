@@ -252,6 +252,33 @@ i,a:hover{
     .attribution{text-align: center; margin: 20px 0 10px;}
 
 
+    /* CONTACT PAGE */
+    .wrapper1 {
+      padding: 2% 0;
+      text-align: center;
+    }
+    .conDetails {
+      background-color: rgb(0, 0, 0, 0.1);
+      padding: 2rem;
+      border-radius: 0.7rem;
+      margin: 5% 0;
+  }
+  .btn-lg, .swal-button {
+    background-color: #0d0b7b;
+    color: #fff;
+    padding: 10px 25px;
+}
+#contact .addBox span {
+  color: #495158;
+}
+
+h1, h2, h3, h4, h5, #hero .wrapper span {
+  color: #0d0b7b !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+
 /* Media Query */
 
 @media (max-width: 1028px) {
