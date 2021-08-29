@@ -273,7 +273,7 @@ i,a:hover{
 }
 
 h1, h2, h3, h4, h5, #hero .wrapper span {
-  color: #0d0b7b !important;
+  /* color: #0d0b7b !important; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
